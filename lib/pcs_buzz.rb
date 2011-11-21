@@ -1,5 +1,7 @@
 require "pcs_buzz/version"
 
 module Buzz
-  # Your code goes here...
+  class Engine < Rails::Engine
+    # Allows Rails to automatically include assets
+  end
 end
